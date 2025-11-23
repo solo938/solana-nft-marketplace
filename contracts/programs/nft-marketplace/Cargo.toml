@@ -1,0 +1,15 @@
+[package]
+name = "nft-marketplace"
+version = "0.1.0"
+description = "NFT Marketplace with compressed NFTs"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib", "lib"]
+name = "nft_marketplace"
+
+[dependencies]
+anchor-lang = "0.32.1"
+anchor-spl = "0.32.1"
+mpl-token-metadata = "3.2.0"
+mpl-bubblegum = "1.0.0"
